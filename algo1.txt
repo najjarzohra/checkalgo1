@@ -1,0 +1,14 @@
+algorithm sentence
+var nbc , nbw ,nbv:= integer;
+sent:=string;
+Begin
+write("write a sentence")
+read(sent) 
+repeat 
+if (nbc:=" ")then
+nbw:=nbw+1;
+end if
+ if (nbc in ["a","e","u","i","o","y"])then
+nbv:=nbv+1;
+end if 
+end
